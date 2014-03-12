@@ -108,14 +108,17 @@ ol ol li {
 
 /* ===================  Student Info Section  =============================== */
 #studentInfo{
-	border: thick dashed #3B5998;
+	border: thin dashed #3B5998;
 	color:black;
-	float: left;
-	margin: 1em;
+	float: right;
+	margin: 1em 2em 1em 1em;
 	padding: .7em;
 	width: 16%;
         
 }
+
+figure img {display: none;}
+
 
 #studentGrade{
 	display:block;
@@ -464,13 +467,6 @@ div.menu ul.menu li.menuAdmin{
 	padding-bottom: .4em;
 }
 
-#otherMedia ol li a[href*="http://"]{
-    border-left: darkblue solid medium;
-    border-bottom: darkblue solid medium;
-    padding-left: 1em;
-    padding-right: 1em;
-    
-}
 
 
 #otherMedia ol li audio{
