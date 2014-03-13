@@ -89,7 +89,7 @@ header{
         top:0px;
         height:9em;
         position: fixed;
-        background-color: #9DD0E0;
+        background-color: #9BD1E8;
         width:100%;
         opacity:1.0;
 }
@@ -163,9 +163,6 @@ header{
         margin-left: 15em;
         top:3em;
         font-size: 13px;
-        border-top-left-radius:10px;
-  	border-top-right-radius:10px;
-  	border-bottom-right-radius:10px;
 }
 
 #mainMenu ul{
@@ -190,6 +187,9 @@ header{
 
 .menuLink a:link{
         padding: 1em;
+        border-top-right-radius:10px;
+  	border-top-left-radius:10px;
+  	border-bottom-right-radius:10px;
 }
 
 .menuLink a:visited{
@@ -203,6 +203,9 @@ header{
 .menuLink a:hover{
 	padding: 1em;
         box-shadow:0em .25em .12em 0em;
+        border-top-left-radius:10px;
+  	border-top-right-radius:10px;
+  	border-bottom-right-radius:10px;
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
