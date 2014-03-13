@@ -440,6 +440,19 @@ div.menu ul.menu li.menuAdmin{
 	color: #cc4444;
 }
 
+.AssignmentsLink{
+    border-style:solid;
+    border-radius: .5em;
+    padding: 0em;
+}
+.AssignmentsLink li:nth-child(2n){
+    background-color: gray;
+}
+
+.AssignmentsLink li:nth-child(2n+1){
+    background-color: lightgray;
+}
+
 .current{
 	border: thin solid #C3C3E5;
 	font-weight: bold;
@@ -1059,6 +1072,14 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 768px';
 	}	
+        #studentInfo{
+                display:none;
+        }
+        #mainMenu{
+                float:left;
+                margin-left: 0em;
+        }
+        
 }
 
 /**************************************************/
