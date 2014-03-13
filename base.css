@@ -233,8 +233,6 @@ header{
         margin-top: 10em;
         border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
 } 
 
 #mainContent a:visited{
@@ -871,12 +869,13 @@ footer {
 	color: white;
 	height: 50px;      
 	left: 0;
-	margin-top: -50px; /* normally the negative value of footer height  */
+	margin-top:-10px; /* normally the negative value of footer height  */
 	position: relative;
 	top: 0;
 	margin-bottom: 50px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width:101.7%;
 	
 } 
 
