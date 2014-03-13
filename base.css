@@ -157,7 +157,6 @@ header{
 	float: left;
 	font-size: 10pt;
 	margin-top: 1.5em;
-	min-width: 50em;
 	padding-bottom: 1.3em;
         position:fixed;
         margin-left: 15em;
@@ -1095,39 +1094,60 @@ because with max width
 @media screen and (max-width: 520px){
 /* ===================  Main Navigation Section  ============================ */
 #mainMenu{
-	margin: 2em;	
+	margin:2em;
+        margin-left: 7em;
+        width:5em;
+        height:3em;
+        background-image:url("http://www.yeeply.com/img/icon/menu-icon-blue.png");
+        background-size:100%;
 }
+#mainMenu:hover{
+        box-shadow:0 .4em .5em 0 gray;
+}
+#mainMenu:hover .menuLink{
+	display: inline-block;
+	height:2em;
+	width:4em; 
+        margin-left: 1em;
+}
+
 
 #mainMenu a, #adminMenu a{
 	text-decoration: none;
 }
-
 .menuLink{
+	display: none;
+}
+
+/*.menuLink:first-child{
 	display: block;
 	min-height:4em;
 	width:100%;
 }
+.menuLink:first-child:hover:nth-child(n){
+        display: block;
+	min-height:4em;
+	width:100%;
+        
+}
+*/
 .menuLink a{	
-	border-left: thin solid gray;
-	border-top: thin solid gray;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius: 8px;
+
 }
 
 .menuLink a:link{
 	
-	padding: 2em;
+	padding: .5em;
+        background-color: blue;
 }
 
 .menuLink a:visited{
 	
-	padding: 2em;
+	padding: .5em;
 }
 .menuLink a:hover{
 	
-	padding: 2em;	
+	padding: .5em;	
 }
 
 /* ------------------  admin menu  ------------------------------------------ */
