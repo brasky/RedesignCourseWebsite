@@ -1177,3 +1177,8 @@ because with max width
 figure img {display: none;}
 
 .NotGraded {background-color: #DE2C56 !important;}
+
+fieldset
+{
+   border-width: 0px;
+}
