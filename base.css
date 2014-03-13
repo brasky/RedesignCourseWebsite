@@ -507,184 +507,142 @@ div.menu ul.menu li.menuAdmin{
 
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Calendar page         ------------------------------- */
-.Absent{
-	color: #ffbfbf !important;
-	background: #aa0011 !important;
-	text-align: center;	
+table.vcalendar {
+    table-layout:fixed;
+    width:1200px;
+    border-collapse:collapse;
+}
+table.vcalendar div.event {
+    display:block;
+    width:100%;
+    margin-top:40px;
+}
+table.vcalendar #monthTitle{
+    height:70px;
+    vertical-align:bottom;
+    font-size:1.13em;
+}
+table.vcalendar #thismonth{
+    font-size:1.5em;
+}
+table.vcalendar #days{
+    font-size:1.3em;
+    height:30px;
+}
+table.vcalendar th {
+    break-word:word-wrap;
+}
+table.vcalendar td {
+    height:125px;
+    vertical-align:text-top;
+    break-word:word-wrap;
+    padding:5px;
+    margin:0;
+    border:black 1px solid;
+}
+table.vcalendar tr#attendanceRow td {
+    height:auto;
+}
+table.vcalendar td div.date {
+    color:#FFFFFF;
+    display:block;
+    height:25px;
+    max-width:100%;
+    text-align:left;
+    background-color:#555555;
+    padding-top:5px;
+    padding-left:10px;
+    border-bottom:2px solid black;
+}
+a.callInSick {
+    position:absolute;
+    display:block;
+    z-index:2;
+    height:25px;
+    margin-top:2px;
+    margin-left:60px;
+    text-decoration:none;
+    width: 10%;
+    text-align: right;
+}
+a.callInSick img {
+    display:none;
+}
+a.callInSick:after {
+    content:"Call in Sick";
+    text-decoration:none;
+    color:white;
+    margin-left:2px;
+    padding:5px;
+}
+a.callInSick:hover {
+    background-color:black;
+}
+nav#adminMenu {
+    width: 200px;
+    margin-left:-180px;
+    position:absolute;
+    background-color:#555555;
+    color:white;
+}
+nav#adminMenu:hover {
+    margin-left:-30px;
+    transition:margin-left 0.5s;
+}
+nav#adminMenu ol {
+    list-style-type:none;
+}
+nav#adminMenu ol li.menuLink a:hover {
+    background-color:black;
 }
 
-.assignment{
-	color: #cc4444;
-	margin:0;
-	padding: 0.125em 0.25em 0 0.25em;
-	text-align:center; 	 
-}
-
-.callInSick{
-	float: left;
-	margin: 0;
-}
-
-div.date{
-
-	box-shadow: 0px 0px 1px 1px;
-	position: absolute;
-	margin: 0px;
-	
-	padding: 0px;
-}
-
-.vcalendar{
-	margin-top: 30px;
-}
-/*
-div.date{
-	float: right; 
-	text-align:center; 
-	border: 1px solid gray; 
-	border-width: 0 0 1px 1px; 
-	padding: 0.125em 0.25em 0 0.25em; 
-	margin:0;  
-	background: #F3F3F3; 
-	width: 2em;
-}
-*/
-.Excused{
-	color: #aa0011 !important;
-	background: #ffadad !important;
-	text-align: center;	
-}
-
-.labComplete{
-	color: #24B300 !important;
-	background: #ffcfcf !important;
-	text-align: center;	
-}
-.Late{
-	color: #24B300 !important;
-	background: #FFFF00 !important;
-	text-align: center;	
-}
-
-.Personal{
-	color: #aa0011 !important;
-	background: #ffcfcf !important;
-	text-align: center;	
-}
-
-.Present{
-	color: #24B300 !important;
-	background: #CCFFBF !important;
-	/*text-align: center;*/
-}
-
-.presentation{
-	border: dashed medium #ff0000 !important;
-}
-.Sick{
-	color: #aa0011 !important;
-	background: #ffadad !important;
-	text-align: center;	
-}
-
-.submitted{
-    border: thin solid green;
-}
-
-.notSubmitted{
-    border:thin solid red;
-}
-.TOPIC { 
-	color: #4444CC; 
-	text-align:center; 
-	padding: 0.125em 0.25em 0 0; 
-	margin:0;  
-}
-
-.VACA {
-	background-color: #dfdfff; /*#EABFFF;*/ 
-	font-style: italic;
-}
-tr > td.days{
-	border: thin solid black;
-	height: 100px;
-	width: 100px;
+nav#adminMenu ol li.menuLink a {
+    color:white;
 
 }
-/*	
-tr#days{
-	width:18%;
+
+img[src="media/earth.jpg"] {
+    display:none;
+}
+/* statuses */
+.Excused {
+    color: #aa0011 !important;
+    background: #ffadad !important;
+    text-align: center; 
 }
 
-tr#days th.sat, tr#days th.sun {
-	width:14%;
+.labComplete {
+    color: #24B300 !important;
+    background: #ffcfcf !important;
+    text-align: center; 
+}
+.Late {
+    color: #24B300 !important;
+    background: #ddffdf !important;
+    text-align: center; 
 }
 
-#calendar table tr#days th {
-	color: #CCE;
-	background-color: #224;
-	font-weight: bold;
-	text-align: center;
-	padding: 1px 0.33em;
+.Personal {
+    color: #aa0011 !important;
+    background: #ffcfcf !important;
+    text-align: center; 
 }
 
-#calendar table tr#title th {
-	background-color: #AAC; 
-	color: black;
-	border: 1px solid #242;
-	font-size: 120%;
-}
-	 
-#calendar table td {
-	vertical-align:top;
-	padding:3px; 
-	border: 0px solid gray; 
-	border-width: 0 0 1px 1px;
-	width:14%;
-}
-	 
-#calendar table td.Sat {
-	border-width: 0 1px 1px 1px;
+.Present {
+    color: #24B300 !important;
+    background: #CCFFBF !important;
+    text-align: center;
 }
 
-#calendar table a {
-	text-decoration: none;
-	font-weight: bold;
-	display: block;
+.presentation {
+    border: dashed medium #ff0000 !important;
+}
+.Sick {
+    color: #aa0011 !important;
+    background: #ffadad !important;
+    text-align: center; 
 }
 
-td.Sat div.date, td.Sun div.date{
-	border-width: 0;
-	color: gray; 
-	background: transparent;
-}
-
-td.Jun div.date, td.Aug div.date{
-	border-width: 0; 
-	color: gray; 
-	background: transparent;
-}	
-
-#calendar table td.Sat, #calendar table td.Sun {
-	background: #ddd;
-}
-	
-#calendar table td.lastMonth, #calendar table td.nextMonth, #calendar table td.prevMonth {
-   background: #AAB; 
-	 color: #889;
-}
-	 
-#calendar table tr#lastweek td {
-	border-bottom: 2px solid #AAB;
-}
-	
-#calendar table td.atoday {
-	color: #C33;
-	font-weight: bold; 
-	background: #FF6; 
-	border: 1px solid black;
-}
-*/
 
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Call in sick Page     ------------------------------- */
@@ -890,9 +848,7 @@ fieldset.slider input{
     float: right;
     padding-right: 2em;
 }
-    overflow: auto;
-    height: 12em;
-}
+    
 /* ===================  Footer Section        =============================== */
 footer {
 	background-color: #ABBCC2;
