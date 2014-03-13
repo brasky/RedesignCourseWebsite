@@ -509,7 +509,7 @@ div.menu ul.menu li.menuAdmin{
 /* -------------------  Calendar page         ------------------------------- */
 table.vcalendar {
     table-layout:fixed;
-    width:1200px;
+    width:1100px;
     border-collapse:collapse;
 }
 table.vcalendar div.event {
@@ -552,7 +552,7 @@ table.vcalendar td div.date {
     background-color:#555555;
     padding-top:5px;
     padding-left:10px;
-    border-bottom:2px solid black;
+    border-bottom:1px solid black;
 }
 a.callInSick {
     position:absolute;
@@ -560,10 +560,10 @@ a.callInSick {
     z-index:2;
     height:25px;
     margin-top:2px;
-    margin-left:60px;
+    margin-left:42px;
     text-decoration:none;
-    width: 10%;
-    text-align: right;
+    text-align: center;
+    width: 100px;
 }
 a.callInSick img {
     display:none;
