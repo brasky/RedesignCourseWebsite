@@ -120,7 +120,7 @@ header{
 
 /* ===================  Student Info Section  =============================== */
 #studentInfo{
-	border:1.5 px solid #3B5998;
+	border:1.5px solid #3B5998;
 	color:black;
 	float: left;
 	margin: 1em;
@@ -1142,3 +1142,5 @@ because with max width
 		content: 'min-width: 1200px';
 	}	
 }
+
+figure img {display: none;}
