@@ -866,7 +866,7 @@ fieldset.slider input{
     
 /* ===================  Footer Section        =============================== */
 footer {
-	background-color: #ABBCC2;
+	background-color: #0E7999;
 	clear:both;
 	color: white;
 	height: 50px;      
@@ -874,6 +874,10 @@ footer {
 	margin-top: -50px; /* normally the negative value of footer height  */
 	position: relative;
 	top: 0;
+	margin-bottom: 50px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
 } 
 
 footer p{
