@@ -681,6 +681,8 @@ img[src="media/earth.jpg"] {
 	border: 1px solid gray; 
 	border-collapse: collapse;
 	padding: 3px; 
+	text-align: center;
+	margin-left:3em;
 }
 
 /* ===================  Main Content Section  =============================== */
