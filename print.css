@@ -1,7 +1,6 @@
 pre { 
  white-space: pre-wrap;       /* css-3 */
  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
- white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
  border: thin solid black;
@@ -13,7 +12,6 @@ pre {
 #adminMenu{display:none;}
 footer{display:none;}
 .col3, .col2{display:none;}
-#studentName{float: right;}
 header{float:left;}
 #mainContent{clear: both;}
 .highlightRed{
@@ -47,7 +45,7 @@ a:visited {color: purple;}
 					 border-width: 0 0 1px 1px; 
 					 margin:0;
 					 padding: 0.125em 0.25em 0 0.25em; 
-					   
+
 }
 
 
@@ -73,9 +71,9 @@ a:visited {color: purple;}
 	}
 	ol li { padding: 0px;
 				 margin-left: -20px;}
-				 
+
 table#calendar a {text-decoration: none;}
-		
+
 tr#days{width:18%;}
 tr#days th.sat, tr#days th.sun {width:5%;}
 table#calendar tr#title {page-break-before: left;}
@@ -89,29 +87,29 @@ table#calendar tr#days th {color: black;
 }
 table#calendar tr#title th {background: transparent; color: black;
    border-width: 0; font-size: 200%;}
-	 
+
 	table#calendar td {vertical-align:top;
    padding:0; border: 0px solid gray; border-width: 0 0 1px 1px;}
-	 
+
 	table#calendar td.sat {border-right: 1px solid gray;}
-	
+
 	table#calendar a {font-weight: bold; display: block; margin: 0;}
-	
+
 	table#calendar a:link {color: navy;}
-	
+
 	div.date{float: right; text-align:center; border: 1px solid gray; border-width: 0 0 1px 1px; padding: 0.125em 0.25em 0 0.25em; margin:0;  background: transparent;}
 	td.sat div.date, td.sun div.date{border-width: 0; color: gray; background: transparent;}
 	td.jun div.date, td.aug div.date{border-width: 0; color: gray; background: transparent;}	
 	table#calendar td.sat, table#calendar td.sun {background: transparent;}
-	
+
 	table#calendar td.lastMonth, table#calendar td.nextMonth {
    background: transparent; color: black;}
-	 
+
 	table#calendar tr#lastweek td {border-bottom: 2px solid #AAB;}
-	
+
 	table#calendar td.holiday {background: #FAA;
    border-color: #BBB #FCC #FCC #BBB;}
-	
+
 	table#calendar td.atoday {color: #C33; font-weight: bold; background: #FF6; border: 1px solid black;}
 
 	 div.event{margin:0.5em;}
@@ -224,4 +222,21 @@ h2, h2 a{
 
 h3{
 	font-size:1.1em;
+}
+
+a:link {text-decoration:none;
+color: black;}
+a:visited {text-decoration:none;
+color: black}
+a:active {text-decoration:underline;}
+
+img {display: none;}
+
+#studentName {display: none;}
+
+table {border-collapse:collapse;}
+
+fieldset
+{
+   display: none;
 }
