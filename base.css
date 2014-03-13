@@ -233,6 +233,7 @@ header{
         margin-top: 10em;
         border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	margin-top:11em;
 } 
 
 #mainContent a:visited{
@@ -542,12 +543,12 @@ table.vcalendar #days{
     height:30px;
 }
 table.vcalendar th {
-    break-word:word-wrap;
+    word-break:keep-all;
 }
 table.vcalendar td {
     height:125px;
     vertical-align:text-top;
-    break-word:word-wrap;
+    word-break:keep-all;
     padding:5px;
     margin:0;
     border:black 1px solid;
@@ -1002,10 +1003,10 @@ because with max width
 
 /* greater than 900 px wide, 900 / 16 = 56.25 */
 /* Retina Display  */
-@media screen and (min-width: 56.25em) and (min-device-pixel-ratio: 2){
+/*@media screen and (min-width: 56.25em) and (min-device-pixel-ratio: 2){
     
     
-}
+}*/
 
 
 
