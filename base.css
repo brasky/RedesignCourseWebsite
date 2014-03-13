@@ -526,6 +526,19 @@ div.menu ul.menu li.menuAdmin{
 }
 
 div.date{
+
+	box-shadow: 0px 0px 1px 1px;
+	position: absolute;
+	margin: 0px;
+	
+	padding: 0px;
+}
+
+.vcalendar{
+	margin-top: 30px;
+}
+/*
+div.date{
 	float: right; 
 	text-align:center; 
 	border: 1px solid gray; 
@@ -535,7 +548,7 @@ div.date{
 	background: #F3F3F3; 
 	width: 2em;
 }
-
+*/
 .Excused{
 	color: #aa0011 !important;
 	background: #ffadad !important;
@@ -549,7 +562,7 @@ div.date{
 }
 .Late{
 	color: #24B300 !important;
-	background: #ddffdf !important;
+	background: #FFFF00 !important;
 	text-align: center;	
 }
 
@@ -562,7 +575,7 @@ div.date{
 .Present{
 	color: #24B300 !important;
 	background: #CCFFBF !important;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .presentation{
@@ -592,7 +605,13 @@ div.date{
 	background-color: #dfdfff; /*#EABFFF;*/ 
 	font-style: italic;
 }
-	
+tr > td.days{
+	border: thin solid black;
+	height: 100px;
+	width: 100px;
+
+}
+/*	
 tr#days{
 	width:18%;
 }
@@ -631,7 +650,7 @@ tr#days th.sat, tr#days th.sun {
 #calendar table a {
 	text-decoration: none;
 	font-weight: bold;
-	display: block; 
+	display: block;
 }
 
 td.Sat div.date, td.Sun div.date{
@@ -665,6 +684,7 @@ td.Jun div.date, td.Aug div.date{
 	background: #FF6; 
 	border: 1px solid black;
 }
+*/
 
 /* ===================  Main Content Section  =============================== */
 /* -------------------  Call in sick Page     ------------------------------- */
