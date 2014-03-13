@@ -570,13 +570,14 @@ table.vcalendar td div.date {
 a.callInSick {
     position:absolute;
     display:block;
-    z-index:2;
+    z-index:-1;
     height:25px;
     margin-top:2px;
     margin-left:42px;
     text-decoration:none;
     text-align: center;
     width: 100px;
+
 }
 a.callInSick img {
     display:none;
