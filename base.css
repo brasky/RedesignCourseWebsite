@@ -21,8 +21,8 @@ a{
 }
 a:link{
 	color: navy;
-	border-style: solid;
 	border-color: transparent;
+	text-decoration: none;
 }
 a:visited{
 	color: #fff;
@@ -120,13 +120,17 @@ header{
 
 /* ===================  Student Info Section  =============================== */
 #studentInfo{
-	border:solid #3B5998;
+	border:1.5 px solid #3B5998;
 	color:black;
 	float: left;
 	margin: 1em;
 	padding: .7em;
         position: fixed;
         top:2em;
+        border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
 }
 
 #studentGrade{
@@ -156,8 +160,12 @@ header{
 	min-width: 50em;
 	padding-bottom: 1.3em;
         position:fixed;
-        margin-left: 30em;
+        margin-left: 15em;
         top:3em;
+        font-size: 13px;
+        border-top-left-radius:10px;
+  	border-top-right-radius:10px;
+  	border-bottom-right-radius:10px;
 }
 
 #mainMenu ul{
@@ -219,6 +227,10 @@ header{
 	width: 90%;
         padding-right: 5em;
         margin-top: 10em;
+        border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 } 
 
 #mainContent a:visited{
@@ -703,6 +715,7 @@ td.Jun div.date, td.Aug div.date{
 
 #studentInfo a:link {
 	color: navy;
+	text-decoration: none;
 }
 #studentInfo a:visited {
 	color: navy;
