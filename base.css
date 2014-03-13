@@ -549,7 +549,7 @@ table.vcalendar td div.date {
     height:25px;
     max-width:100%;
     text-align:left;
-    background-color:#555555;
+    background-color:#2F677F;
     padding-top:5px;
     padding-left:10px;
     border-bottom:1px solid black;
@@ -576,7 +576,7 @@ a.callInSick:after {
     padding:5px;
 }
 a.callInSick:hover {
-    background-color:black;
+    background-color:#88B8CC;
 }
 nav#adminMenu {
     width: 200px;
