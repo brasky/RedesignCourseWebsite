@@ -679,6 +679,7 @@ img[src="media/earth.jpg"] {
 
 #syllabus table, #syllabus table td, #syllabus table th{
 	border: 1px solid gray; 
+	border-collapse: collapse;
 	padding: 3px; 
 }
 
