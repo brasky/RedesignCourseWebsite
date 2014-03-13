@@ -262,12 +262,12 @@ div[style*="background"], .code{
 /* -------------------------------- */
 
 .avggrade {
-	background-color: #ffffcc !important;
-	color: #ffcccc;
+	background-color: #CCD9D7 !important;
+	color: #2E3436;
 }
 
 .failing {
-	background-color: red !important;
+	background-color: #DE2C56 !important;
 }
 
 #GradeCriteria{
@@ -276,8 +276,8 @@ div[style*="background"], .code{
 }
 
 .GradesReleased {
-	background-color: #66cc00 !important; 
-	color: #ffffff !important;
+	background-color: #D0F1F5 !important; 
+	color: #2E3436 !important;
 }
 
 .GradesReleased .highlight {
@@ -285,17 +285,17 @@ div[style*="background"], .code{
 }
 
 .GradingStarted {
-	background-color: #fff000 !important; 
-	color: #000000 !important;
+	background-color: #FCE895 !important; 
+	color: #2E3436 !important;
 }
 
 .NotGraded {
-	background-color: #aa0000; 
-	color: #ffffcc;
+	background-color:#DE2C56;
+  	color:white;
 }
 #listStudents span.NotGraded {
-	background-color: #aa0000; 
-	color: #ffffcc;
+	background-color: #DE2C56; 
+	color: white;
 }
 
 #listStudents span.notSubmitted:before{
@@ -329,14 +329,15 @@ table#grading, table#grading td, table#grading th{
 	border: solid #000 1px;
 	background-color:  #3b90cc;
 	text-align: center;
-	font-family: Arial, Verdana, Geneva, Helvetica, sens-serif;
+	font-family: georgia, Verdana, Geneva, Helvetica, sens-serif;
 	padding: 4px; 
+	font-size: 13px;
 }
 
 .standard td {
-	border: 1px dashed black;
+	border: 1px solid black;
 	text-align: center;
-	font-family: Arial, Verdana, Geneva, Helvetica, sens-serif;
+	font-family: georgia, Verdana, Geneva, Helvetica, sens-serif;
 }
 
 /* ===================  Student List Section  =============================== */
@@ -1147,3 +1148,5 @@ because with max width
 }
 
 figure img {display: none;}
+
+.NotGraded {background-color: #DE2C56 !important;}
