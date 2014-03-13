@@ -89,9 +89,9 @@ header{
         top:0px;
         height:9em;
         position: fixed;
-        background-color: yellow;
+        background-color: #9DD0E0;
         width:100%;
-        opacity:.90;
+        opacity:1.0;
 }
 #header a:link{
 	color: #fff;
@@ -125,7 +125,6 @@ header{
 	float: left;
 	margin: 1em;
 	padding: .7em;
-	width: 16%;
         position: fixed;
         top:2em;
 }
@@ -854,14 +853,12 @@ fieldset.slider input{
     float: right;
     padding-right: 2em;
 }
-
-#peerGrade2 #mainContent #peerComments{
     overflow: auto;
     height: 12em;
 }
 /* ===================  Footer Section        =============================== */
 footer {
-	background-color: #3B5998;
+	background-color: #ABBCC2;
 	clear:both;
 	color: white;
 	height: 50px;      
@@ -1060,7 +1057,6 @@ because with max width
 
 @media screen and (max-width: 768px){
 	body{
-		background-color: red;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
 		width: 750px;
@@ -1124,7 +1120,6 @@ because with max width
 /*************************************************/
 @media screen and (min-width: 1200px){
 	body{
-		background-color: green;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
 		width: 1200px;
