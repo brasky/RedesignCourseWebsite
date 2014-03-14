@@ -91,7 +91,7 @@ header{
         position: fixed;
         background-color: #9BD1E8;
         width:100%;
-        opacity:1.0;
+        opacity:.9;
 }
 #header a:link{
 	color: #fff;
@@ -210,13 +210,18 @@ header{
 
 /* ------------------  admin menu  ------------------------------------------ */
 #adminMenu{
-	border-bottom: thin solid #3B5998;
-	float:left;
+	float:right;
 	font-size: 10pt;
-	margin-top: 1em;
+	margin-top: -2em;
 	margin-left: 0;
-	min-width: 55em;
-	padding-bottom: 1.3em;
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+}
+.menuAdmin.menuLink {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 0.5pt;
 }
 
 
@@ -445,11 +450,11 @@ div.menu ul.menu li.menuAdmin{
     padding: 0em;
 }
 .AssignmentsLink li:nth-child(2n){
-    background-color: gray;
+    background-color: #A4B9BF;
 }
 
 .AssignmentsLink li:nth-child(2n+1){
-    background-color: lightgray;
+    background-color: #9BD1E8;
 }
 
 .current{
@@ -592,25 +597,29 @@ a.callInSick:hover {
     background-color:#88B8CC;
 }
 nav#adminMenu {
-    width: 200px;
-    margin-left:-180px;
-    position:absolute;
+    width: 150px;
+    position:fixed;
     background-color:#555555;
     color:white;
+    right:0px;
+    opacity: 0.15;
 }
 nav#adminMenu:hover {
-    margin-left:-30px;
-    transition:margin-left 0.5s;
+    opacity: 1;
 }
 nav#adminMenu ol {
     list-style-type:none;
+    padding: 0;
 }
 nav#adminMenu ol li.menuLink a:hover {
     background-color:black;
+    padding:0 0.5em 0 0.5em;
+    margin: 0.1em;
 }
 
 nav#adminMenu ol li.menuLink a {
     color:white;
+    padding: 0 0.5em;
 
 }
 
@@ -1101,9 +1110,11 @@ because with max width
         background-image:url("http://www.yeeply.com/img/icon/menu-icon-blue.png");
         background-size:100%;
 }
+
 #mainMenu:hover{
         box-shadow:0 .4em .5em 0 gray;
 }
+
 #mainMenu:hover .menuLink{
 	display: inline-block;
 	height:2em;
@@ -1111,14 +1122,16 @@ because with max width
         margin-left: 1em;
 }
 
-
 #mainMenu a, #adminMenu a{
 	text-decoration: none;
 }
+
 .menuLink{
 	display: none;
 }
-
+nav#adminMenu ol li.menuLink a:link{
+        background-color: black;
+}
 /*.menuLink:first-child{
 	display: block;
 	min-height:4em;
