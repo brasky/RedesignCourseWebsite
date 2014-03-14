@@ -486,7 +486,18 @@ div.menu ul.menu li.menuAdmin{
 
 .LecturesLink{ /* also used on calendar */  
 	list-style-type: none;
+        border-style:solid;
+        border-radius: .5em;
+        padding: 0em;
 }
+.LecturesLink li:nth-child(2n){
+    background-color: #A4B9BF;
+}
+
+.LecturesLink li:nth-child(2n+1){
+    background-color: #9BD1E8;
+}
+
 
 .videoList li{
 	list-style-type: none;	
