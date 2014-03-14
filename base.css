@@ -49,6 +49,7 @@ h1{
 
 h2, h2 a{
 	font-size:1.5em;
+	margin-top: -0.5em;
 }
 
 h3{
@@ -1195,3 +1196,12 @@ fieldset
 {
    border-width: 0px;
 }
+
+.LecturesLink li:nth-child(2n) {
+  background-color:gray;
+}
+
+.LecturesLink li:nth-child(2n+1) {
+  background-color:#D3D3D3;
+}
+
