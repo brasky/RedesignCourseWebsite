@@ -451,11 +451,11 @@ div.menu ul.menu li.menuAdmin{
     padding: 0em;
 }
 .AssignmentsLink li:nth-child(2n){
-    background-color: #A4B9BF;
+    background-color: gray;
 }
 
 .AssignmentsLink li:nth-child(2n+1){
-    background-color: gray;
+    background-color: #D3D3D3;
 }
 
 .current{
