@@ -1256,3 +1256,5 @@ fieldset
 }
 
 #mainContent h2 {padding-top: 1em;}
+
+.form {display: inline-block;}
