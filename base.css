@@ -948,7 +948,7 @@ body{
 	background-color: #A4B9BF;
 	color: #2C2C2C;
 	font: normal 100% Cambria, Georgia, serif;
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto;
 }
 #toolmenu:before {
@@ -1036,7 +1036,7 @@ because with max width
 		background-color: pink;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
-		width: 300px;
+		/*width: 300px;*/
 		margin: 0 auto;
 	}
 		
@@ -1050,6 +1050,10 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 320px';
 	}
+	table.vcalendar {
+		width:0px;
+
+}
 }
 
 
@@ -1058,7 +1062,7 @@ because with max width
 		background-color: black;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
-		width: 480px;
+		/*width: 480px;*/
 		margin: 0 auto;
 	}
 		
@@ -1071,6 +1075,10 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 480px';
 	}
+		table.vcalendar {
+	    width:0px;
+
+}
 }
 
 @media screen and (max-width: 520px){
@@ -1078,7 +1086,7 @@ because with max width
 		background-color: grey;
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
-		width: 520px;
+		/*width: 520px;*/
 		margin: 0 auto;
 	}	
 	#toolmenu{
@@ -1088,14 +1096,19 @@ because with max width
 	}
 	#toolmenu:before {
 		content: 'max-width: 520px';
-	}	
+	}
+	
+	table.vcalendar {
+	    width:0px;
+
+}	
 }
 
 @media screen and (max-width: 768px){
 	body{
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
-		width: 750px;
+		/*width: 750px;*/
 		margin: 0 auto;
 	}	
 	#toolmenu:before {
@@ -1108,7 +1121,11 @@ because with max width
                 float:left;
                 margin-left: 0em;
         }
-        
+    
+    table.vcalendar {
+	    width:0px;
+
+}
 }
 
 /**************************************************/
@@ -1201,10 +1218,14 @@ nav#adminMenu ol li.menuLink {
 
 }
 
+	table.vcalendar {
+	    width:0px;
+
+}
 
 }
 /*************************************************/
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1100px){
 	body{
 		color: #2C2C2C;
 		font: normal 100% Cambria, Georgia, serif;
