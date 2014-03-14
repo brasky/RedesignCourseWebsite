@@ -1122,13 +1122,30 @@ because with max width
         background-image:url("http://www.yeeply.com/img/icon/menu-icon-blue.png");
         background-size:100%;
 }
-
+nav#adminMenu{
+        right: 0px;
+        margin: -10em 0 0 0;
+        width:7em;
+        opacity: 1;
+}
+nav#adminMenu:hover{
+        box-shadow:0 .4em .5em 0 gray;
+}
+nav#adminMenu:hover ol li.menuLink{
+        display:block;
+	height:50em;
+        margin-left: 1em;
+        
+}
+nav#adminMenu:hover ol li.menuLink a{
+        font-size: 10pt;
+}
 #mainMenu:hover{
         box-shadow:0 .4em .5em 0 gray;
 }
 
 #mainMenu:hover .menuLink{
-	display: inline-block;
+	display:block;
 	height:2em;
 	width:4em; 
         margin-left: 1em;
@@ -1141,8 +1158,8 @@ because with max width
 .menuLink{
 	display: none;
 }
-nav#adminMenu ol li.menuLink a:link{
-        background-color: black;
+nav#adminMenu ol li.menuLink {
+        display: none;
 }
 /*.menuLink:first-child{
 	display: block;
