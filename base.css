@@ -451,7 +451,7 @@ div.menu ul.menu li.menuAdmin{
     padding: 0em;
 }
 .AssignmentsLink li:nth-child(2n){
-    background-color: gray;
+    background-color: #808080;
 }
 
 .AssignmentsLink li:nth-child(2n+1){
@@ -491,11 +491,11 @@ div.menu ul.menu li.menuAdmin{
         padding: 0em;
 }
 .LecturesLink li:nth-child(2n){
-    background-color: #A4B9BF;
+    background-color: #808080;
 }
 
 .LecturesLink li:nth-child(2n+1){
-    background-color: #9BD1E8;
+    background-color: #D3D3D3;
 }
 
 
