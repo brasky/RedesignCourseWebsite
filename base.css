@@ -93,6 +93,8 @@ header{
         background-color: #9BD1E8;
         width:100%;
         opacity:.9;
+        z-index: 1;
+
 }
 #header a:link{
 	color: #fff;
@@ -132,6 +134,7 @@ header{
 	border-bottom-left-radius:10px;
 	border-top-right-radius:10px;
 	border-bottom-right-radius:10px;
+	z-index: 2;
 }
 
 #studentGrade{
@@ -163,6 +166,7 @@ header{
         margin-left: 15em;
         top:3em;
         font-size: 13px;
+        z-index: 2;
 }
 
 #mainMenu ul{
@@ -585,13 +589,15 @@ table.vcalendar td div.date {
 a.callInSick {
     position:absolute;
     display:block;
-    z-index:-1;
+    z-index:0;
     height:25px;
-    margin-top:2px;
-    margin-left:42px;
+    margin-top:0px;
+    margin-left:38px;
     text-decoration:none;
     text-align: center;
-    width: 100px;
+    width: 90px;
+    padding: 0px;
+    padding-top: 5px;
 
 }
 a.callInSick img {
@@ -601,8 +607,6 @@ a.callInSick:after {
     content:"Call in Sick";
     text-decoration:none;
     color:white;
-    margin-left:2px;
-    padding:5px;
 }
 a.callInSick:hover {
     background-color:#88B8CC;
@@ -1017,7 +1021,7 @@ because with max width
 
 /* greater than 600 px wide, 600 / 16 = 37.5 */
 @media screen and (min-width: 37.5em){
-    
+
     
 }
 
@@ -1051,10 +1055,7 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 320px';
 	}
-	table.vcalendar {
-		width:0px;
 
-}
 }
 
 
@@ -1076,10 +1077,7 @@ because with max width
 	#toolmenu:before {
 		content: 'max-width: 480px';
 	}
-		table.vcalendar {
-	    width:0px;
 
-}
 }
 
 @media screen and (max-width: 520px){
@@ -1099,10 +1097,7 @@ because with max width
 		content: 'max-width: 520px';
 	}
 
-	table.vcalendar {
-	    width:0px;
 
-}	
 }
 
 @media screen and (max-width: 768px){
@@ -1123,10 +1118,7 @@ because with max width
                 margin-left: 0em;
         }
     
-    table.vcalendar {
-	    width:0px;
 
-}
 }
 
 /**************************************************/
@@ -1219,12 +1211,19 @@ nav#adminMenu ol li.menuLink {
 
 }
 
+
+
+}
+@media screen and (min-width: 900px) and (max-width: 1000px){
 	table.vcalendar {
-	    width:0px;
-
+    width:800px;
+    margin:auto;
+}
+article#mainContent{
+	width: 75%;
+}
 }
 
-}
 /*************************************************/
 @media screen and (min-width: 1100px){
 	body{
