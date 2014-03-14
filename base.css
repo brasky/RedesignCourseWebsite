@@ -1154,20 +1154,26 @@ nav#adminMenu:hover ol li.menuLink a{
         font-size: 10pt;
 }
 #mainMenu:hover{
-        box-shadow:0 .4em .5em 0 gray;
+        box-shadow:0 0em 0em 0.1em gray;
 }
-
 #mainMenu:hover .menuLink{
 	display:block;
-	height:2em;
+	height:1em;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-right: 15px;
 	width:4em; 
-        margin-left: 1em;
+    margin-left: 1.7em;
 }
 
 #mainMenu a, #adminMenu a{
 	text-decoration: none;
 }
+#mainMenu a{
+	font-size: 10pt;
+	white-space: nowrap
 
+}
 .menuLink{
 	display: none;
 }
