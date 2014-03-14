@@ -419,7 +419,6 @@ div.menu ul.menu li.menuAdmin{
 
 
 #slide{
-	float: left;
 /*	width: 57.8888889%;/* 566px / 900px less some padding*/
 	padding: 0 1em 2em 0;
 	border-right: dashed thin #999;
