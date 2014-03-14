@@ -1210,14 +1210,55 @@ nav#adminMenu ol li.menuLink {
 	margin: 2em;
 
 }
+}
+@media screen and (max-width: 900px){
+	table.vcalendar {
+    width:600px;
+    margin:auto;
+    
+}
+a.callInSick {
+    position:absolute;
+    display:block;
+    z-index:0;
+    height:25px;
+    margin-top:0px;
+    margin-left:38px;
+    text-decoration:none;
+    text-align: center;
+    width: 30px;
+    padding: 0px;
+    padding-top: 5px;
 
-
-
+}
+a.callInSick:after{
+	content: "Sick";
+}
+article#mainContent{
+	width: 50%;
+}
 }
 @media screen and (min-width: 900px) and (max-width: 1000px){
 	table.vcalendar {
     width:800px;
     margin:auto;
+}
+a.callInSick {
+    position:absolute;
+    display:block;
+    z-index:0;
+    height:25px;
+    margin-top:0px;
+    margin-left:38px;
+    text-decoration:none;
+    text-align: center;
+    width: 30px;
+    padding: 0px;
+    padding-top: 5px;
+
+}
+a.callInSick:after{
+	content: "Sick";
 }
 article#mainContent{
 	width: 75%;
