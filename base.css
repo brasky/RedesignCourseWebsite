@@ -455,7 +455,7 @@ div.menu ul.menu li.menuAdmin{
 }
 
 .AssignmentsLink li:nth-child(2n+1){
-    background-color: #9BD1E8;
+    background-color: gray;
 }
 
 .current{
