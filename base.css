@@ -1,4 +1,4 @@
-/* CSS designed by Robert M. Erickson */
+
 
 /* ===================  General Section  ==================================== */
 
@@ -914,7 +914,7 @@ footer p{
 
 /* -------  i put this here so you can have your name show up  -------------- */
 footer #author:after{
-	content:"Robert Erickson"; 
+	content:"Sara Birchard, Joel Hernandez, and Elliot DeMatteis"; 
 }
 
 #ProcessingTime{
